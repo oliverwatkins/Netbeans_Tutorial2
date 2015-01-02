@@ -9,17 +9,11 @@ import java.awt.BorderLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import javax.swing.AbstractAction;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-import org.openide.util.Exceptions;
-import org.openide.util.NbPreferences;
 
 /**
  *
@@ -70,21 +64,11 @@ public class LoginPanel extends JPanel {
 
         btnLogin = new JButton("Login");
         
-//        btnLogin.c
-        
 //
 //        btnLogin.setAction(new AbstractAction() {
 //
 //            @Override
 //            public void actionPerformed(ActionEvent e) {
-//                
-//               7 e.
-//                
-//                
-//                
-//                
-//                
-//                
 //            }
 //        });
         
@@ -102,5 +86,4 @@ public class LoginPanel extends JPanel {
     public boolean isSucceeded() {
         return succeeded;
     }
-
 }

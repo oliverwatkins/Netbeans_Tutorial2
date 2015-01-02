@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.huwag.almexoffice.client.module.user.ui;
+package com.happydog.customermodule.user.ui;
 
 /**
  *

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.huwag.almexoffice.client.module.user.delegate;
+package com.happydog.customermodule.user.delegate;
 
 //import com.huw.almexoffice.UserBO;
 import java.util.ArrayList;

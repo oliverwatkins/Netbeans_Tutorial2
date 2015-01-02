@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.huwag.almexoffice.client.module.user.ui;
+package com.happydog.customermodule.user.ui;
 
 //import com.mycompany.app.core.user.module.Bundle;
-import com.huwag.almexoffice.client.module.user.delegate.CustomerDelegate;
-import com.huwag.almexoffice.client.module.user.delegate.CustomerTableModel;
+import com.happydog.customermodule.user.delegate.CustomerDelegate;
+import com.happydog.customermodule.user.delegate.CustomerTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -114,7 +114,7 @@ public final class UserTopComponent extends TopComponent {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(UserTopComponent.class, "UserTopComponent.jLabel1.text")); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(UserTopComponent.class, "UserTopComponent.jLabel2.text")); // NOI18N
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(UserTopComponent.class, "UserTopComponent.jLabel2.text_1")); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(UserTopComponent.class, "UserTopComponent.jLabel3.text")); // NOI18N
@@ -277,7 +277,7 @@ public final class UserTopComponent extends TopComponent {
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1093, Short.MAX_VALUE)
+            .addGap(0, 1089, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

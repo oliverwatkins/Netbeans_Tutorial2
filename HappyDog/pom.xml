@@ -59,31 +59,14 @@
     <modules>
         <module>branding</module>
         <module>application</module>
-        <module>Login-Module</module>
-        <module>DogWalking-Module</module>
-        <module>Customer-Module</module>
-    </modules>
+<!--        <module>Login-Module</module>
+        <module>DogWalking-Module</module>-->
+        <!--<module>Customer-Module</module>-->
+    <module>CustomerModule</module>
+  </modules>
 
     <properties>
         <netbeans.version>RELEASE74</netbeans.version>
         <brandingToken>appedeka</brandingToken>
     </properties>
 </project>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
