@@ -56,8 +56,6 @@ public final class UserTopComponent extends TopComponent {
             @Override
             public void run() {
                 
-                
-//                List<UserBO> al = CustomerDelegate.getInstance().getUsers();
                 List al = CustomerDelegate.getInstance().getUsers();
         
                 CustomerTableModel model = new CustomerTableModel(al);

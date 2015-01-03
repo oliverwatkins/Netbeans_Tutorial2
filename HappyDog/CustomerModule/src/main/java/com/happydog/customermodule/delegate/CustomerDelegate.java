@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CustomerDelegate {
     
-    private static CustomerDelegate INSTANCE;
+    private static CustomerDelegate INSTANCE = new CustomerDelegate();
     
     private CustomerDelegate() {
     }
@@ -16,28 +16,28 @@ public class CustomerDelegate {
         return CustomerDelegate.INSTANCE;
     }
 
-    public List<Customer> getUsers() {
+    public List<Customer> getCustomers() {
         
         Customer customer = new Customer();
         
-        customer.name = "bob";
-        customer.petsname = "Henrz";
+        customer.name = "Bob";
+        customer.petsname = "Henry";
         customer.pettype = "dog";
         customer.lastvisit = "10-10-2009";
 
         Customer customer2 = new Customer();
         
-        customer2.name = "bob";
-        customer2.petsname = "Henrz";
-        customer2.pettype = "dog";
-        customer2.lastvisit = "10-10-2009";
+        customer2.name = "Jane";
+        customer2.petsname = "Donnie";
+        customer2.pettype = "fish";
+        customer2.lastvisit = "9-4-2009";
         
         Customer customer3 = new Customer();
         
-        customer3.name = "bob";
-        customer3.petsname = "Henrz";
-        customer3.pettype = "dog";
-        customer3.lastvisit = "10-10-2009";
+        customer3.name = "Tyrone";
+        customer3.petsname = "Malcom";
+        customer3.pettype = "budgie";
+        customer3.lastvisit = "8-8-2009";
         
         ArrayList list = new ArrayList();
         list.add(customer);
@@ -45,5 +45,14 @@ public class CustomerDelegate {
         list.add(customer3);
         
         return list;
+    }
+    
+    
+    public void createCustomer(Customer customer) {
+        //TODO
+    }
+    
+    public void deleteCustomer(Customer customer) {
+        //TODO
     }
 }

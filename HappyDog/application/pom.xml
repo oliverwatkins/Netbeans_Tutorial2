@@ -82,6 +82,11 @@
             <artifactId>Happydog-Login-Module</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>CustomerModule</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
