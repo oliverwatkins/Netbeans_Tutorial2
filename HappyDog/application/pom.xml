@@ -27,59 +27,9 @@
             <version>${netbeans.version}</version>
             <type>pom</type>
         </dependency>
-<!--        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>App-EDEKA-branding</artifactId>
-            <version>${project.version}</version>
-        </dependency>-->
-        <!-- NbModuleSuite functional in RELEASE70 or later: -->
-<!--        <dependency>
-            <groupId>org.netbeans.api</groupId>
-            <artifactId>org-netbeans-modules-nbjunit</artifactId>
-            <version>${netbeans.version}</version>
-            <scope>test</scope>  beyond platform cluster, this often needs to be dropped down to compile/runtime, some other modules in IDE clusters depend on it 
-        </dependency>-->
-        <!-- To use Jelly Tools in your functional tests, add or replace with:
-        <dependency>
-            <groupId>org.netbeans.api</groupId>
-            <artifactId>org-netbeans-modules-jellytools-platform</artifactId>
-            <version>${netbeans.version}</version>
-            <scope>test</scope>
-        </dependency>
-        -->
-<!--        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>App-EDEKA-Lager-Module</artifactId>
-            <version>${project.version}</version>
-        </dependency>-->
-<!--        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>App-Core-User-Module</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>App-Core-Group-Module</artifactId>
-            <version>${project.version}</version>
-        </dependency>-->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>HappyDog-branding</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>DogWalking-Module</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>Happydog-Customer-Module</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>Happydog-Login-Module</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
